@@ -1,0 +1,45 @@
+.scoreboard{
+	max-width: 600px;
+	margin: auto;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+
+.header{
+	background-color: red;
+	color: #fff;
+}
+
+.teams{
+	float: left;
+	width: 100%;
+}
+
+.team{
+	width: 100%;
+}
+
+.team-name{
+	width: 100%;
+	text-align: left;
+	font-size: 20px;
+}
+
+.counter{
+	float: left;
+	width: 100%;
+}
+.counter-change, .team-score{
+	float: left;
+	width: 33%;
+}
+
+.minus{
+	background-color: #ff0000;
+	font-size: 20px;
+}
+
+.plus{
+	background-color: #00ff00;
+	font-size: 20px;
+}
