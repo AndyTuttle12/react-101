@@ -9,10 +9,13 @@ var Application = React.createClass({
 
 	flipCoin: function(){
 		var checkState = this.state.image
-		if(checkState == image1){
-			checkState = image2
-		}else{
+		var randImg = Math.round(Math.random())
+		if(randImg == 0){
 			checkState = image1
+			console.log('tails')
+		}else{
+			checkState = image2
+			console.log('heads')
 		}
 		this.setState({
 			image: checkState
