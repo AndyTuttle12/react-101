@@ -1,6 +1,6 @@
 *{
-	line-height: 30px;
-	font-size: 30px;
+	line-height: 25px;
+	font-size: 25px;
 	font-family: arial;
 	border-radius: 5px;
 }
@@ -19,8 +19,23 @@ form > input{
 	height: 30px;
 }
 
+.check-box{
+	-ms-transform: scale(1.5);
+	-moz-transform: scale(1.5); 
+	-webkit-transform: scale(1.5); 
+	-o-transform: scale(1.5); 
+	margin: -10px 10px 0;
+	padding: 4px;
+	box-sizing: content-box;
+}
+
 p{
 	text-align: center;
+	margin-top: 5px;
+}
+
+p span{
+	margin-bottom: -10px;
 }
 
 table{
