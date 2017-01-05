@@ -1,6 +1,6 @@
 class ProductCategoryRow extends React.Component {
   render() {
-    return (<tr><th colSpan="2">{this.props.category}</th></tr>);
+    return (<tr className="category"><th colSpan="2">{this.props.category}</th></tr>);
   }
 }
 
@@ -130,7 +130,25 @@ var PRODUCTS = [
   {category: 'Sporting Goods', price: '$29.99', stocked: false, name: 'Basketball'},
   {category: 'Electronics', price: '$99.99', stocked: true, name: 'iPod Touch'},
   {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
-  {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
+  {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 6'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 7'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'Pixel'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'Pixel XL'},
+  {category: 'Electronics', price: '$3499.99', stocked: true, name: 'MacBook Pro'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'}
 ];
 
 ReactDOM.render(

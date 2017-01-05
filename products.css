@@ -2,6 +2,7 @@
 	line-height: 30px;
 	font-size: 30px;
 	font-family: arial;
+	border-radius: 5px;
 }
 body{
 	background-color: #345;
@@ -14,7 +15,7 @@ body{
 }
 
 form > input{
-	width: 100%;
+	width: 98%;
 	height: 30px;
 }
 
@@ -37,4 +38,11 @@ tr:hover {
 .item-name, .item-price{
 	width: 200px;
 	padding: 5px;
+}
+
+.category{
+	border: 3px solid #aaa;
+	border-collapse: collapse;
+	text-align: center;
+	background-color: #aaa;
 }
