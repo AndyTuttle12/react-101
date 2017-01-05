@@ -1,0 +1,40 @@
+*{
+	line-height: 30px;
+	font-size: 30px;
+	font-family: arial;
+}
+body{
+	background-color: #345;
+}
+
+#container{
+	width: 400px;
+	margin: 100px auto;
+	color: white;
+}
+
+form > input{
+	width: 100%;
+	height: 30px;
+}
+
+p{
+	text-align: center;
+}
+
+table{
+	border: 3px solid #aaa;
+}
+
+table, thead, tbody{
+	text-align: left;
+}
+
+tr:hover {
+	background-color: #aaa
+}
+
+.item-name, .item-price{
+	width: 200px;
+	padding: 5px;
+}
